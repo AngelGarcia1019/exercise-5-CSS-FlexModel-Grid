@@ -1,0 +1,54 @@
+body {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 100vw;
+  grid-auto-rows: 37vh 26vh 37vh;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1vw;
+  grid-auto-columns: 25vw auto 60vw;
+  background-color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.rectangle-small {
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+.rectangle {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.white {
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-row: 1;
+  background-color: blue;
+}
+
+.separator {
+  background-color: blue;
+}
+
+.margin {
+  margin: 5vh 0px;
+}
+
+.margin-bottom {
+  margin-bottom: 4vh;
+}
+
+.margin-top {
+  margin-top: 4vh;
+}
